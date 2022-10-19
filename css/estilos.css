@@ -1,0 +1,120 @@
+*{
+    font-family: Georgia;
+}
+body {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+header {
+    background-color: rgb(53, 146, 227);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+main {
+    background-color: coral;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1 {
+    color: rgb(77, 77, 77);
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: green;
+}
+
+.meu-titulo{
+    color: red;
+
+}
+#meu-titulo-id{
+    color: violet;
+}
+
+img {
+    height: 50px;
+    width: auto;
+    text-align: center;
+}
+.div-img{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-serifa{
+    font-family: 'Times New Roman';
+    font-size: 36px;
+}
+
+.texto-sem-serifa{
+    font-family: arial;
+    font-size: 36px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.texto-mono{
+    font-family: 'Courier New';
+    font-size: 36px;
+    color: rgb(226, 27, 123)
+
+
+}
+
+.maiusculo{
+    
+    text-transform: lowercase;
+
+}
+
+.minusculo{
+    text-transform:uppercase
+}
+
+.alinhamento{
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.text-spacing{
+    line-height: 28px;
+    letter-spacing: 5px;
+}
+
+#box-model{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-right: 100px;
+    border: 2px solid #777;
+    padding: 10px;
+    margin: 40px;
+}
+/* comentario = ctrl+; */
+
